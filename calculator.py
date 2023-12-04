@@ -47,12 +47,12 @@ def main():
             ):
                 print("{} is not a valid sign.".format(user_sign))
             else:
-                # Call function to find mark
+                # Call function to find answer
                 calculated_result = calc_result(
                     user_num_1_float, user_num_2_float, user_sign
                 )
 
-                # Display mark
+                # Display answer
                 print(
                     "{} {} {} = {:.2f}".format(
                         user_num_1_float, user_sign, user_num_2_float, calculated_result
